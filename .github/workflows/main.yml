@@ -25,7 +25,7 @@ jobs:
       run: dotnet build --configuration Release
 
     - name: Publish the project
-      run: dotnet publish --configuration Release --output ./publish
+      run: dotnet publish --configuration Release --output ./build
 
   docker:
     runs-on: ubuntu-latest
