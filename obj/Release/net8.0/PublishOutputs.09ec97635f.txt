@@ -1,0 +1,12 @@
+C:\Users\pavan\Desktop\dna-webapp\build\dna-webapp.exe
+C:\Users\pavan\Desktop\dna-webapp\build\test\web.config
+C:\Users\pavan\Desktop\dna-webapp\build\appsettings.Development.json
+C:\Users\pavan\Desktop\dna-webapp\build\appsettings.json
+C:\Users\pavan\Desktop\dna-webapp\build\test\appsettings.Development.json
+C:\Users\pavan\Desktop\dna-webapp\build\test\appsettings.json
+C:\Users\pavan\Desktop\dna-webapp\build\test\dna-webapp.deps.json
+C:\Users\pavan\Desktop\dna-webapp\build\test\dna-webapp.runtimeconfig.json
+C:\Users\pavan\Desktop\dna-webapp\build\dna-webapp.dll
+C:\Users\pavan\Desktop\dna-webapp\build\dna-webapp.deps.json
+C:\Users\pavan\Desktop\dna-webapp\build\dna-webapp.runtimeconfig.json
+C:\Users\pavan\Desktop\dna-webapp\build\dna-webapp.pdb
