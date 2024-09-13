@@ -70,7 +70,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: us-west-2  # Adjust to your AWS region
+        aws-region: ap-south-1  # Adjust to your AWS region
 
     - name: Install kubectl
       uses: azure/setup-kubectl@v1
@@ -79,7 +79,7 @@ jobs:
 
     - name: Get EKS cluster credentials
       run: |
-        aws eks update-kubeconfig --name my-cluster --region us-west-2
+        aws eks update-kubeconfig --name karthik_eks_cluster --region ap-south-1
         kubectl config view --minify  # Ensure kubectl is properly configured
 
     - name: Deploy to EKS
