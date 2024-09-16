@@ -68,8 +68,8 @@ jobs:
         
     - name: Commit updated manifest
       run: |
-        git config user.name "github-actions"
-        git config user.email "github-actions@github.com"
+        git config user.name "KarthikKumarBA"
+        git config user.email "bakarthikkumarba@gmail.com"
         git add deploy.yaml
         git commit -m "Update image tag to ${{ github.sha }}"
         git push
