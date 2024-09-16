@@ -96,7 +96,7 @@ jobs:
         aws-region: ap-south-1  # Adjust to your AWS region
 
     - name: Install kubectl
-      uses: azure/setup-kubectl@v1
+      uses: azure/setup-kubectl@v3
       with:
         version: '1.30.0'  # Adjust to your kubectl version
 
