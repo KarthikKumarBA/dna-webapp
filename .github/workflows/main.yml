@@ -88,6 +88,8 @@ jobs:
     needs: update-manifest
 
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
     - name: Set up AWS CLI
       uses: aws-actions/configure-aws-credentials@v2
       with:
