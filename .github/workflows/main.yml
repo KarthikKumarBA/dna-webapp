@@ -48,11 +48,6 @@ jobs:
         name: build-artifacts
         path: ./build
         
-    - name: command
-      run: |
-        ls -l
-        ls -l dna-webapp
-
     - name: Build Docker image
       run: docker build -t karthikumarba/dna_webapp:${{ github.sha }} .
 
