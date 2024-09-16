@@ -99,7 +99,8 @@ jobs:
       uses: azure/setup-kubectl@v4
       with:
         version: '1.30.0'  # Adjust to your kubectl version
-
+      id: install
+      
     - name: Get EKS cluster credentials
       run: |
         aws eks update-kubeconfig --name karthik_eks_cluster --region ap-south-1
