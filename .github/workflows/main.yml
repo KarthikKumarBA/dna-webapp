@@ -90,8 +90,9 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
+
+    - name: command test
+      run: git pull
         
     - name: Set up AWS CLI
       uses: aws-actions/configure-aws-credentials@v2
