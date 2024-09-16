@@ -74,6 +74,8 @@ jobs:
         cat deploy.yaml
         
     - name: Commit updated manifest
+      env:
+        GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
       run: |
         git config user.name "KarthikKumarBA"
         git config user.email "bakarthikkumarba@gmail.com"
