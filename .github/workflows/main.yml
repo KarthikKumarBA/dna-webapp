@@ -96,9 +96,9 @@ jobs:
         aws-region: ap-south-1  # Adjust to your AWS region
 
     - name: Install kubectl
-      uses: azure/setup-kubectl@v3
+      uses: azure/setup-kubectl@v4
       with:
-        version: '1.29.0'  # Adjust to your kubectl version
+        version: '1.30.0'  # Adjust to your kubectl version
 
     - name: Get EKS cluster credentials
       run: |
