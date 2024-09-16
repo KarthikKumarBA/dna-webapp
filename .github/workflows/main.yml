@@ -46,6 +46,11 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: build-artifacts
+        
+    - name: command
+      run: |
+        ls -l
+        ls -l dna-webapp
 
     - name: Build Docker image
       run: docker build -t karthikumarba/dna_webapp:${{ github.sha }} .
