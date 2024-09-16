@@ -98,7 +98,7 @@ jobs:
     - name: Install kubectl
       uses: azure/setup-kubectl@v4
       with:
-        version: '1.30.0'  # Adjust to your kubectl version
+        version: 'v4.0.0'  # Adjust to your kubectl version
       id: install
       
     - name: Get EKS cluster credentials
