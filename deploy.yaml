@@ -44,7 +44,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: dotnet-app.bakarthikkumar.com
+    http:
       paths:
       - path: /
         pathType: Prefix
