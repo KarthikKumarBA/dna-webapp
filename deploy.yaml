@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: dotnet-app
-        image: karthikumarba/dna_webapp:6019fcabba01d3508df2b0561c43ca52df78cc2c
+        image: karthikumarba/dna_webapp:7860df2f47f18e96bf498a80625e3ff939ee60fe
         ports:
         - containerPort: 8080
 ---
